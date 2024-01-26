@@ -1,9 +1,9 @@
-import ConfirmDialog from "@/components/ui/confirmDialog";
 import { useCartContext } from "@/contexts/CartContext";
 import React from "react";
+import ConfirmDialog from "../ui/ConfirmDialog";
 
 const CartItemUi = ({ id, title, price, image, quantity }) => {
-  const { quantityControl, removeFromCart } = useCartContext();
+  const { quantityControl } = useCartContext();
   return (
     <div>
       <div className="border-2 group relative duration-1000 select-none border-neutral-950 group p-3">

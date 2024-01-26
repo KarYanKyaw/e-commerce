@@ -1,6 +1,6 @@
 // Offcanvas.js
 import React, { useEffect } from "react";
-import { Cart } from "@/cart";
+import { Cart } from "@/components/cart";
 
 const Offcanvas = ({ isOpen, onClose }) => {
   useEffect(() => {
